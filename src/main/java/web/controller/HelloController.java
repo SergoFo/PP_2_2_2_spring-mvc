@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.ArrayList;
 import java.util.List;
 
+@RequestMapping("/hello")
 @Controller
 public class HelloController {
 
